@@ -4,12 +4,14 @@
 *.cmi
 *.a
 *.o
+*.so
 *.cmx
 *.cmxs
 *.cmxa
 
 # ocamlbuild working directory
 _build/
+bin/
 
 # ocamlbuild targets
 *.byte
@@ -18,3 +20,7 @@ _build/
 # oasis generated files
 setup.data
 setup.log
+
+# ocamldep
+*.depend
+depend.mk
